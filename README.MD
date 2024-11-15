@@ -16,9 +16,9 @@ Ce script utilise Puppeteer pour extraire des publications LinkedIn et les expor
 1. **Clonez le dépôt** ou téléchargez le fichier `export_posts.ts`.
 
 2. **Installez les dépendances** :
-   Ouvrez un terminal dans le répertoire du script et exécutez la commande suivante pour installer Puppeteer et les autres dépendances :
+   Ouvrez un terminal dans le répertoire du script et exécutez la commande suivante pour installer Puppeteer et les autres dépendances via le package.json :
    ```bash
-   npm install puppeteer csv-write-stream
+   npm install
    ```
 
 ## Configuration
