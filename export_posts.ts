@@ -20,9 +20,8 @@ interface PostData {
   });
 
   // Log in to LinkedIn
-  await page.type("#username", "0xulrick@proton.me");
-  await page.type("#password", "space3097!123");
-  // await page.type('#password', 'Reskue3099!123');
+  await page.type("#username", "YOUR_EMAIL");
+  await page.type("#password", "YOUR_PASSWORD");
   await page.click('button[type="submit"]');
   await page.waitForNavigation();
 
@@ -75,7 +74,7 @@ interface PostData {
   await page.setRequestInterception(true);
 
   // Listen for requests and block navigation
-  page.on("request", (request) => {
+  page.on("request", (request: any) => {
     if (request.isNavigationRequest() && request.frame() === page.mainFrame()) {
       request.abort();
     } else {

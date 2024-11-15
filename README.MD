@@ -6,10 +6,14 @@ Ce script utilise Puppeteer pour extraire des publications LinkedIn et les expor
 
 - **Node.js** : Assurez-vous que Node.js est installé sur votre machine. Vous pouvez le télécharger depuis [nodejs.org](https://nodejs.org/).
 - **NPM** : NPM est généralement installé avec Node.js. Vérifiez son installation avec `npm -v` dans votre terminal.
+- **TypeScript** : Installez TypeScript globalement si ce n'est pas déjà fait :
+  ```bash
+  npm install -g typescript
+  ```
 
 ## Installation
 
-1. **Clonez le dépôt** ou téléchargez le fichier `export_posts.js`.
+1. **Clonez le dépôt** ou téléchargez le fichier `export_posts.ts`.
 
 2. **Installez les dépendances** :
    Ouvrez un terminal dans le répertoire du script et exécutez la commande suivante pour installer Puppeteer et les autres dépendances :
@@ -20,7 +24,7 @@ Ce script utilise Puppeteer pour extraire des publications LinkedIn et les expor
 ## Configuration
 
 1. **Modifiez le script** :
-   - Ouvrez `export_posts.js` dans un éditeur de texte.
+   - Ouvrez `export_posts.ts` dans un éditeur de texte.
    - Remplacez `YOUR_EMAIL` et `YOUR_PASSWORD` par vos identifiants LinkedIn.
 
 2. **Choisissez la page LinkedIn** :
@@ -31,7 +35,7 @@ Ce script utilise Puppeteer pour extraire des publications LinkedIn et les expor
 1. **Lancez le script** :
    Dans le terminal, exécutez la commande suivante :
    ```bash
-   node export_posts.js
+   ts-node export_posts.ts
    ```
 
 2. **Vérification manuelle** :
