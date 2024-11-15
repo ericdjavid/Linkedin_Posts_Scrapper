@@ -1,5 +1,9 @@
 {
+  "dependencies": {
+    "csv-write-stream": "^2.0.0",
+    "puppeteer": "^23.7.1"
+  },
   "devDependencies": {
-    "@types/node": "^22.9.0"
+    "@types/csv-write-stream": "^2.0.3"
   }
 }

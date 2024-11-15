@@ -45,19 +45,12 @@ interface PostData {
   }
 
   // Navigate to the specific LinkedIn page
-  // await page.goto('https://www.linkedin.com/in/benoitdubos/recent-activity/all/', { waitUntil: 'domcontentloaded' });
-  // await page.goto('https://www.linkedin.com/in/kevindufraisse/recent-activity/all/', { waitUntil: 'domcontentloaded' });
-  // await page.goto('https://www.linkedin.com/in/oussamaammar/recent-activity/all/', { waitUntil: 'domcontentloaded' });
-//   await page.goto(
-//     "https://www.linkedin.com/in/adrianapeyruse/recent-activity/all/",
-//     { waitUntil: "domcontentloaded" }
-//   );
-
   await page.goto(
-    "https://www.linkedin.com/in/alexis-krugerfox/recent-activity/all/",
+    "https://www.linkedin.com/in/benoitdubos/recent-activity/all/",
     { waitUntil: "domcontentloaded" }
   );
-
+  // await page.goto('https://www.linkedin.com/in/kevindufraisse/recent-activity/all/', { waitUntil: 'domcontentloaded' });
+  // await page.goto('https://www.linkedin.com/in/oussamaammar/recent-activity/all/', { waitUntil: 'domcontentloaded' });
   // await page.goto('https://www.linkedin.com/in/gregoiregambatto/recent-activity/all/', { waitUntil: 'domcontentloaded' });
   // await page.goto('https://www.linkedin.com/in/marclouvion/recent-activity/all/', { waitUntil: 'domcontentloaded' });
   // await page.goto('https://www.linkedin.com/in/thibault-louis/recent-activity/all/', { waitUntil: 'domcontentloaded' });
